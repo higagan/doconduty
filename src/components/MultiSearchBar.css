@@ -1,0 +1,72 @@
+#multi-search-container .multi-search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 30px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #multi-search-container .multi-search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  #multi-search-container .multi-search-bar select {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  #multi-search-container .multi-search-bar button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #ff5a5f;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 15px;
+    width: 120px;
+    height: 40px;
+    
+
+  }
+  .multi-search-bar input[type="text"], .multi-search-bar select {
+    margin-right: 15px;
+  }
+  
+  
+  #multi-search-container .multi-search-bar button:hover {
+    background-color: #ff4348;
+  }
+  
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  #multi-search-container {
+    width: 80%;
+  }
+  
+  .list-hospitals-container {
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

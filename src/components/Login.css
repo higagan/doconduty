@@ -1,0 +1,69 @@
+.login-dialogue {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .login-dialogue.show {
+    display: flex;
+  }
+  
+  .login-dialogue-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .login-dialogue-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .login-dialogue-content h2 {
+    margin-top: 0;
+  }
+  
+  .login-dialogue-content label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login-dialogue-content input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+  }
+  
+  .login-dialogue-content button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+  }
+  
+  .login-dialogue-content button:hover {
+    background-color: #0052a3;
+    cursor: pointer;
+  }
+  
